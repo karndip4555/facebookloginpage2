@@ -1,4 +1,4 @@
 # Facebook login page clone
 #### Technologies used : 
-#### 1-HTML.
-#### 2-CSS.
+#### 1-HTML. 
+#### 2-CSS. for styling the page
