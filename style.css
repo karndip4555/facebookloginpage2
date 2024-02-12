@@ -1,23 +1,84 @@
 *{
-    font-family: sans-serif;
+    font-family:sans-serif;
     margin: 0;
     padding: 0;
+   
 }
+
 .maindiv{
-    border: 2px solid yellow;
+
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F0F2F5;
+    /* border-radius: 20PX; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+    height: 90vh;
 }
 
 .imagediv img{
     height: 100px;
-    width: 300px;
-    /* padding: 20px; */
-    /* display: block; */
+    width: 400px;
+   
     background-size: cover;
-    border: 1px solid black;
+    
+    display: inline-block;
 }
 
 .formdiv{
-    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.604);
     height: 400px;
-    width: 100vh;
+    width:450px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding-top: 17px;
+    
+    
+    
+}
+.id input{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-top: 20px;
+    border: 1px solid rgba(202, 192, 192, 0.592);
+    border-radius: 9px;
+    font-size: 20px;
+    
+}
+button:hover{
+    background-color:  #1876f295;
+}
+.logintext p{
+    font-size: 30px;
+    padding: 10px;
+}
+.button button{
+   background-color: #1877f2;
+   border-radius: 10px;
+   padding: 11px;
+   color: white;
+   border: none;
+   width: 390px;
+  line-height: 28px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-size: 20px;
+}
+.footer a{
+    margin:10px;
+    text-decoration: none;
+}
+.footer span{
+    color: blue;
+}
+.footer{
+    margin-top: 20px;
 }
