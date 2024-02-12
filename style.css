@@ -13,18 +13,13 @@
     flex-direction: column;
     align-items: center;
     background-color:#F0F2F5;
-    /* border-radius: 20PX; */
-    /* padding: 20px; */
-    /* margin: 20px; */
     height: 90vh;
 }
 
 .imagediv img{
     height: 100px;
     width: 400px;
-   
     background-size: cover;
-    
     display: inline-block;
 }
 
@@ -37,9 +32,6 @@
     display: inline-block;
     background-color: rgb(255, 255, 255);
     padding-top: 17px;
-    
-    
-    
 }
 .id input{
     border-radius: 6px;
@@ -52,9 +44,7 @@
     font-size: 20px;
     
 }
-button:hover{
-    background-color:  #1876f295;
-}
+
 .logintext p{
     font-size: 30px;
     padding: 10px;
@@ -68,9 +58,13 @@ button:hover{
    width: 390px;
   line-height: 28px;
   margin-top: 15px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
   cursor: pointer;
   font-size: 20px;
+  border: none;
+}
+button:hover{
+    background-color:  #1261c9;
 }
 .footer a{
     margin:10px;
@@ -81,4 +75,50 @@ button:hover{
 }
 .footer{
     margin-top: 20px;
+}
+.languages ul li a{
+    color: rgb(69, 67, 67);
+    text-decoration: none;
+   
+}
+.languages ul {
+    
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* padding: 20px; */
+   /* margin: 20px; */
+   gap: 10px;
+   list-style-type: none;
+   margin-top: 100px;
+   margin-right: 130px;
+
+}
+.border{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.491);
+    height: 1px;
+}
+.bottomlist{
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.bottomlist ul {
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.bottomlist a{
+    text-decoration: none;
+    color: #373434d6;
+    /* padding: 20px; */
+    font-size: 20px;
+    
+}
+.bottomlist {
+    margin-top: 20px;
+    /* gap: 20px; */
 }
